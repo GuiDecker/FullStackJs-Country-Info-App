@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/countries")
+      .get(`${process.env.NEXT_PUBLIC_API_URL}/countries`)
       .then((response) => setCountries(response.data))
       .catch((error) => console.error("Error fetching countries:", error));
   }, []);

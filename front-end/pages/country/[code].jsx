@@ -17,7 +17,7 @@ export default function CountryInfo() {
 
   const getCountryData = () => {
     axios
-      .get(`http://localhost:5000/countries/${code}`)
+      .get(`${process.env.NEXT_PUBLIC_API_URL}/countries/${code}`)
       .then((response) => setCountryData(response.data))
       .catch((error) => {
         setError(true);

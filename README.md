@@ -1,6 +1,10 @@
 # FullStackJs-Country-Info-App
 
-This is a Full Stack JS application that provides country information using a Node.js backend and a React.js frontend.
+This is a Full Stack JS application that provides country information using Node.js for the backend and Next/React.js for the frontend.
+
+### OBS
+
+I've kept .env to make it easier, as it's public apis
 
 ## Prerequisites
 

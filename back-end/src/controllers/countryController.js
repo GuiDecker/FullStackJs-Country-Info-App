@@ -1,9 +1,10 @@
 const axios = require("axios");
+require("dotenv").config();
 
-const COUNTRIES_API = "https://date.nager.at/api/v3/AvailableCountries";
-const COUNTRY_INFO_API = "https://date.nager.at/api/v3/CountryInfo/";
-const COUNTRY_FLAG_API = "https://countriesnow.space/api/v0.1/countries/flag/images";
-const COUNTRY_POPULATION_API = "https://countriesnow.space/api/v0.1/countries/population";
+const COUNTRIES_API = process.env.COUNTRIES_API;
+const COUNTRY_INFO_API = process.env.COUNTRY_INFO_API;
+const COUNTRY_FLAG_API = process.env.COUNTRY_FLAG_API;
+const COUNTRY_POPULATION_API = process.env.COUNTRY_POPULATION_API;
 
 const getCountries = async (req, res) => {
   try {

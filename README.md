@@ -13,6 +13,24 @@ I've kept .env to make it easier, as it's public apis
 
 ## How to Run the Project
 
+
+### Libs back-end
+- axios
+- cors
+- dotenv
+- express
+
+### Libs front-end
+- @emotion/react
+- @emotion/styled
+- @mui/icons-material
+- mui/material
+- axios
+- next
+- react
+- react-dom
+- recharts
+
 ### 1. Run the Back-end
 
 1. Navigate to the back-end directory:
